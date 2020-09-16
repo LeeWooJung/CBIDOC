@@ -1,12 +1,8 @@
 # CBIDOC
 Cascading Behavior and Information Diffusion in Overlapping Clusters
 
-# How to implement.
-
-## Main
+# How to implement(Main.py).
   
-### Argument
-
 --saveGraph(default = False)
 True로 설정할 시, 그래프 데이터를 .gpickle데이터로 변환한다.  
 이 때, ".community.txt"과 ".ungraph.txt"파일이 있어야한다.  
