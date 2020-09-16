@@ -3,7 +3,7 @@ Cascading Behavior and Information Diffusion in Overlapping Clusters
 
 # How to implement(Main.py).
   
---saveGraph(default = False)
+--saveGraph(default = False)  
 True로 설정할 시, 그래프 데이터를 .gpickle데이터로 변환한다.  
 이 때, ".community.txt"과 ".ungraph.txt"파일이 있어야한다.  
 ".community.txt" : 각 줄마다 같은 community에 속한 node number가 있어야하며 \t으로 구분된다.  
@@ -12,7 +12,7 @@ True로 설정할 시, 그래프 데이터를 .gpickle데이터로 변환한다.
 --GraphName(default = "KarateClub")  
 Diffusion 결과를 보고자 하는 Graph의 이름을 입력한다.  
   
---case(default = "DFOA")
+--case(default = "DFOA")  
 후보로 DFOA(diffusion from overlap),  
          CDIOA(diffusion into overlap with compatibility),  
          CDFOA(diffusion from overlap with compatibility)가 있다.  
